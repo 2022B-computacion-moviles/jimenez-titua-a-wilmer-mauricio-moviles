@@ -1,4 +1,4 @@
-package com.example.movcompwmjt
+package com.example.movcomputacionwmjt
 
 import org.junit.Test
 

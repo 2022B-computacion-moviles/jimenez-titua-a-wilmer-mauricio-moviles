@@ -82,8 +82,8 @@ fun main(args: Array<String>) {
 
     val coqueto = if (estadoCivilWhen == 'S') println("Si") else println("No")
 
-
     val sumaUno = Suma(1, 2)
+
 
     val sumaDos = Suma(1, null)
 

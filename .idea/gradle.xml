@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/00-klotin/wmjt-moviles" />
+        <option name="gradleJvm" value="corretto-15" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/00-klotin/wmjt-moviles" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/01-Android" />
+        <option name="gradleJvm" value="corretto-15" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/01-Android" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
