@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "645400127134",
+    "project_id": "movcomp-wmjt-97700",
+    "storage_bucket": "movcomp-wmjt-97700.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645400127134:android:6808bdce2b6263abaf3d8f",
+        "android_client_info": {
+          "package_name": "com.example.movcomwmjt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645400127134-7p26bp8122843pbrnrs7tm00khj2vull.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmoHxzZl3nWE9C50fksvPP3-wWnrinw9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645400127134-7p26bp8122843pbrnrs7tm00khj2vull.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

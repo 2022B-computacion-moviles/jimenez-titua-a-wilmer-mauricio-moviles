@@ -161,9 +161,7 @@ fun main(args: Array<String>) {
 
 
     //MAP -> Muta el arreglo (cambia el arreglo)
-
     //1) Enviamos el nuevo valor de la iteracion
-
     //2) Nos devuelve el valor de cada iteracion
 
     println("MAP")
