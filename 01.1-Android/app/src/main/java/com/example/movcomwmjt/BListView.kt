@@ -125,6 +125,7 @@ class BListView : AppCompatActivity() {
                 "Ejemplo", "a@a.com"
             )
         )
+        adaptador.notifyDataSetChanged()
 
     }
 }
