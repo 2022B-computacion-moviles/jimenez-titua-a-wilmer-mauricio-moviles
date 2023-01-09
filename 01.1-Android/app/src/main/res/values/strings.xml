@@ -15,4 +15,11 @@
     <color name="color_fondo">#FFC107</color>
 
 
+    <string-array name="string_array_opciones_dialogo">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+    </string-array>
+
+
 </resources>
