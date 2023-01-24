@@ -1,0 +1,4 @@
+Proyecto 1er bimestre
+Integrantes: Wilmer Jiménez, Henry Tumailli
+Historias de usuario y BDD: https://epnecuador-my.sharepoint.com/:f:/g/personal/henry_tumailli_epn_edu_ec/Esl9XFrJ9clKpK2woU5WikEBaw30CUxEMYnasU5PClo5qA?e=xJSU5b
+Mockups: https://www.figma.com/proto/XsHOeSl6q99WXCYSPZBR7b/Mockups-Proyecto?node-id=1%3A5&scaling=scale-down&page-id=0%3A1
