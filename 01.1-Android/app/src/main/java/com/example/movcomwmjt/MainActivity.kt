@@ -84,6 +84,12 @@ class MainActivity : AppCompatActivity() {
                 abrirActividadConParametros(CIntentExplicitoParametros::class.java)
             }
 
+        val botonCrudEntrenador= findViewById<Button>(R.id.btn_sqlite)
+        botonCrudEntrenador
+            .setOnClickListener {
+                irActividad(ECrudEntrenador::class.java)
+            }
+
 
     }
     fun abrirActividadConParametros(
