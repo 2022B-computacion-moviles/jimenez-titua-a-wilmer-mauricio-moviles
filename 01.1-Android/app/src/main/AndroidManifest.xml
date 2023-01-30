@@ -13,21 +13,30 @@
         android:theme="@style/Theme.MovComWMJT"
         tools:targetApi="31">
         <activity
-            android:name=".ECrudEntrenador"
+            android:name=".GRecyclerView"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <!-- android:exported="true" par que sea visible!-->
+        <activity
+            android:name=".ECrudEntrenador"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity> <!-- android:exported="true" par que sea visible! -->
         <activity
             android:name=".CIntentExplicitoParametros"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.SEND"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
                 <data android:mimeType="text/plain" />
             </intent-filter>
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -35,8 +44,6 @@
         <activity
             android:name=".BListView"
             android:exported="false">
-
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
