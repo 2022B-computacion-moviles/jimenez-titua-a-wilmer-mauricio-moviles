@@ -84,8 +84,8 @@ class MainActivity : AppCompatActivity() {
                 abrirActividadConParametros(CIntentExplicitoParametros::class.java)
             }
 
-        val botonCrudEntrenador= findViewById<Button>(R.id.btn_sqlite)
-        botonCrudEntrenador
+        val botonSqlite = findViewById<Button>(R.id.btn_sqlite)
+        botonSqlite
             .setOnClickListener {
                 irActividad(ECrudEntrenador::class.java)
             }
@@ -94,6 +94,12 @@ class MainActivity : AppCompatActivity() {
         botonRView
             .setOnClickListener {
                 irActividad(GRecyclerView::class.java)
+            }
+
+        val botonGoogleMaps = findViewById<Button>(R.id.btn_google_maps)
+        botonGoogleMaps
+            .setOnClickListener {
+                irActividad(HGoogleMaps::class.java)
             }
 
 

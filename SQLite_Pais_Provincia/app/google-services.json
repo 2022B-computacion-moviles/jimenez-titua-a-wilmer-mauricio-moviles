@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "182005395321",
+    "project_id": "sqlite-pais-provincia",
+    "storage_bucket": "sqlite-pais-provincia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182005395321:android:bb1a83aabb36570c3f89a8",
+        "android_client_info": {
+          "package_name": "com.example.sqlite_pais_provincia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182005395321-8muo9nn7deb71l7s1a4t6lgs4ogqbgie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVN0_8qNvjYqtqL9sJOj-MPN2z6MIhBAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182005395321-8muo9nn7deb71l7s1a4t6lgs4ogqbgie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
