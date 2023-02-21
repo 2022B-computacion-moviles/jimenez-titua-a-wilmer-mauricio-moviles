@@ -1,27 +1,20 @@
 package com.example.youtube
 
 import android.animation.ObjectAnimator
-import android.content.Intent
 import android.media.MediaPlayer
 import android.net.Uri
-import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.animation.AnimationUtils
 import android.widget.*
-import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.imageview.ShapeableImageView
-import java.util.*
 import kotlin.collections.ArrayList
-import kotlin.concurrent.schedule
-import kotlin.concurrent.scheduleAtFixedRate
-import kotlin.concurrent.timer
 
 class AdaptadorVideosView (
     private val contexto: MainActivity,
-    private val lista: ArrayList<Video>,
+    private val lista: ArrayList<Short>,
     private val recyclerView: RecyclerView
 ): RecyclerView.Adapter<AdaptadorVideosView.MyViewHolder>() {
     inner class MyViewHolder(view: View) : RecyclerView.ViewHolder(view){

@@ -1,9 +1,10 @@
 package com.example.youtube
 
 class Short(
-    var usuario:String,
-    var descripcion:String,
-    var imagenPerfil:String,
-    var URL: String,
-){
+    var nombreCanal: String,
+    var descripcionVideo: String,
+    var imagenPerfil: String,
+    var URL: String
+
+) {
 }
