@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Principal"
+        android:id="@+id/id_principal"
+        android:icon="@drawable/icono_house"
+        />
+
+    <item
+        android:id="@+id/id_short"
+        android:icon="@drawable/icono_shorts"
+        android:title="Shorts" />
+
+    <item
+        android:id="@+id/id_crear"
+        android:icon="@drawable/icono_crear"
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/id_suscripciones"
+        android:icon="@drawable/icono_subcripciones"
+        android:title="Suscripciones" />
+    <item
+        android:id="@+id/id_biblioteca"
+        android:icon="@drawable/icono_biblioteca"
+        android:title="Biblioteca" />
+
+
+</menu>

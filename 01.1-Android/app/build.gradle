@@ -41,6 +41,12 @@ def lifecycle_version = "2.4.0"
 dependencies {
     // FIREBASE:
     implementation platform('com.google.firebase:firebase-bom:31.1.0')
+    // UI libreria auth
+    implementation 'com.firebaseui:firebase-ui-auth:7.2.0'
+    // libreria auth
+    implementation 'com.google.firebase:firebase-auth:21.1.0'
+    // Firestore
+    implementation 'com.google.firebase:firebase-firestore-ktx'
 
     implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
@@ -52,6 +58,7 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment-ktx:2.4.1'
     implementation 'androidx.navigation:navigation-ui-ktx:2.4.1'
     implementation 'com.google.android.gms:play-services-maps:18.0.2'
+    implementation 'com.google.firebase:firebase-auth:21.0.2'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
