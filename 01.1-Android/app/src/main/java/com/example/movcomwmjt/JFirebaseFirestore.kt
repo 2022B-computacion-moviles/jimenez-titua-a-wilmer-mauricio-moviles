@@ -63,7 +63,7 @@ class JFirebaseFirestore : AppCompatActivity() {
     fun consultarCiudades(
         adaptador: ArrayAdapter<JCitiesDto>
     ){
-        val db = FirebaseFirestore.getInstance()
+        val db = Firebase.firestore
         //val db = Firebase.firestore
         val citiesRef = db.collection("cities").orderBy("population").limit(1)
 
