@@ -137,7 +137,7 @@ class JFirebaseFirestore : AppCompatActivity() {
     fun consultarDocumento(
         adaptador: ArrayAdapter<JCitiesDto>
     ){
-        val db = FirebaseFirestore.getInstance()
+        val db = Firebase.firestore
         val citiesRefUnico = db
             .collection("cities")
         // /cities/BJ (1 documento)
@@ -230,7 +230,7 @@ class JFirebaseFirestore : AppCompatActivity() {
     }
 
     fun crearDatosPrueba() {
-        val db = FirebaseFirestore.getInstance()// Objeto Firestore
+        val db = Firebase.firestore// Objeto Firestore
         val cities = db.collection("cities") // nombre coleccion
         val data1 = hashMapOf( // Objeto a guardarse
             "name" to "San Francisco",
