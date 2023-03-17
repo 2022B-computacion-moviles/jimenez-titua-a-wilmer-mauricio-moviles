@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "518577347752",
+    "project_id": "pais-provincia-firestore",
+    "storage_bucket": "pais-provincia-firestore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518577347752:android:32173c5ec013a39ba8b69d",
+        "android_client_info": {
+          "package_name": "com.example.pais_provincia_firestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518577347752-nase6qpkbr4md05hm2t3uhvtabti43oh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX2rOj2do3YZuI73AZqMKvap4C8bQM5Ck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518577347752-nase6qpkbr4md05hm2t3uhvtabti43oh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518577347752:android:df1f416ea91e930ca8b69d",
+        "android_client_info": {
+          "package_name": "com.example.sqlite_pais_provincia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518577347752-nase6qpkbr4md05hm2t3uhvtabti43oh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX2rOj2do3YZuI73AZqMKvap4C8bQM5Ck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518577347752-nase6qpkbr4md05hm2t3uhvtabti43oh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

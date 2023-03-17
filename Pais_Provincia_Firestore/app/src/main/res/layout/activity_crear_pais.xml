@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Crear_Pais">
+
+    <EditText
+        android:id="@+id/input_nombre_pais"
+        android:layout_width="339dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="Ingrese el nombre"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158" />
+
+    <EditText
+        android:id="@+id/input_capital_pais"
+        android:layout_width="339dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="Ingrese la capital"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/input_nombre_pais"
+        app:layout_constraintStart_toStartOf="@+id/input_nombre_pais"
+        app:layout_constraintTop_toBottomOf="@+id/input_nombre_pais" />
+
+    <EditText
+        android:id="@+id/input_cantidad_hab_pais"
+        android:layout_width="339dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="Ingrese la cantidad de habitantes"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/input_capital_pais"
+        app:layout_constraintStart_toStartOf="@+id/input_capital_pais"
+        app:layout_constraintTop_toBottomOf="@+id/input_capital_pais" />
+
+    <EditText
+        android:id="@+id/input_tasa_mortalidad"
+        android:layout_width="339dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="Ingrese la tasa de mortalidad"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/input_cantidad_hab_pais"
+        app:layout_constraintStart_toStartOf="@+id/input_cantidad_hab_pais"
+        app:layout_constraintTop_toBottomOf="@+id/input_cantidad_hab_pais" />
+
+    <Switch
+        android:id="@+id/switch_capitalista"
+        android:layout_width="339dp"
+        android:layout_height="65dp"
+        android:text="¿El país es capitalista?"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/input_tasa_mortalidad"
+        app:layout_constraintStart_toStartOf="@+id/input_tasa_mortalidad"
+        app:layout_constraintTop_toBottomOf="@+id/input_tasa_mortalidad" />
+
+    <Button
+        android:id="@+id/button_crear_pais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="8dp"
+        android:text="Crear"
+        app:layout_constraintEnd_toEndOf="@+id/switch_capitalista"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/switch_capitalista"
+        app:layout_constraintTop_toBottomOf="@+id/switch_capitalista" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="Crear Pais"
+        android:textColor="#090909"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/input_nombre_pais"
+        app:layout_constraintEnd_toEndOf="@+id/input_nombre_pais"
+        app:layout_constraintStart_toStartOf="@+id/input_nombre_pais" />
+</androidx.constraintlayout.widget.ConstraintLayout>

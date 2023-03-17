@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Crear_Provincia">
+
+    <EditText
+        android:id="@+id/input_nombre_provincia"
+        android:layout_width="339dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="Ingrese el nombre"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <EditText
+        android:id="@+id/input_capital_provincia"
+        android:layout_width="339dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="Ingrese la capital"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/input_nombre_provincia"
+        app:layout_constraintStart_toStartOf="@+id/input_nombre_provincia"
+        app:layout_constraintTop_toBottomOf="@+id/input_nombre_provincia" />
+
+    <EditText
+        android:id="@+id/input_superficie"
+        android:layout_width="339dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="Ingrese la superficie"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/input_capital_provincia"
+        app:layout_constraintStart_toStartOf="@+id/input_capital_provincia"
+        app:layout_constraintTop_toBottomOf="@+id/input_capital_provincia" />
+
+    <EditText
+        android:id="@+id/input_cantidad_hab_provincia"
+        android:layout_width="339dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="Ingrese la cantidad de habitantes"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/input_superficie"
+        app:layout_constraintStart_toStartOf="@+id/input_superficie"
+        app:layout_constraintTop_toBottomOf="@+id/input_superficie" />
+
+    <EditText
+        android:id="@+id/input_fecha_fiesta_C"
+        android:layout_width="339dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="Ingrese la fecha de la fiesta de la capital"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="@+id/input_cantidad_hab_provincia"
+        app:layout_constraintStart_toStartOf="@+id/input_cantidad_hab_provincia"
+        app:layout_constraintTop_toBottomOf="@+id/input_cantidad_hab_provincia" />
+
+    <Button
+        android:id="@+id/button_crear_provincia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear"
+        app:layout_constraintEnd_toEndOf="@+id/input_fecha_fiesta_C"
+        app:layout_constraintStart_toStartOf="@+id/input_fecha_fiesta_C"
+        app:layout_constraintTop_toBottomOf="@+id/input_fecha_fiesta_C" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Provincia"
+        android:textColor="#0B0A0A"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/input_nombre_provincia"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/input_nombre_provincia"
+        tools:layout_editor_absoluteY="36dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
