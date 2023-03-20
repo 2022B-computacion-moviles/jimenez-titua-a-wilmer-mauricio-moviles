@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "873302266022",
+    "project_id": "proyecto-moviles-fd4d3",
+    "storage_bucket": "proyecto-moviles-fd4d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873302266022:android:161ed476fd2582c92e6467",
+        "android_client_info": {
+          "package_name": "com.example.proyecto_iib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873302266022-rjmq6umjkbprrdq8lge9k8lkrutjr3n1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZo2Nxc1d0b9wY8feZRBc0GKesi88oOqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873302266022-rjmq6umjkbprrdq8lge9k8lkrutjr3n1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

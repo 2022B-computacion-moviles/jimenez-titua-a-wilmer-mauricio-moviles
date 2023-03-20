@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Registro_Paciente">
+
+    <Button
+        android:id="@+id/btn_registrar_paciente"
+        android:layout_width="184dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#991AA9FA"
+        android:text="Resgistrarse"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/text_ir_registro_odont"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/text_ir_registro_odont"
+        app:layout_constraintTop_toBottomOf="@+id/text_ir_registro_odont"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <TextView
+        android:id="@+id/text_ir_registro_odont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="132dp"
+        android:text="@string/registro_odontologo"
+        android:textColor="#B951ACD1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txt_contraseña_odontologo"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/txt_contraseña_paciente"
+        app:layout_constraintTop_toBottomOf="@+id/txt_contraseña_paciente"
+        app:layout_constraintVertical_bias="0.804" />
+
+    <EditText
+        android:id="@+id/txt_nombres_paciente"
+        android:layout_width="319dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#020202"
+        android:ems="10"
+        android:hint="Ingrese su nombre"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#74000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.189" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Nombre"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/txt_nombres_odontologo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.583" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/txt_apellidos_paciente"
+        app:layout_constraintEnd_toEndOf="@+id/txt_nombres_paciente"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_nombres_paciente"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nombres_paciente"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teléfono"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/txt_telefono_paciente"
+        app:layout_constraintEnd_toEndOf="@+id/txt_apellidos_paciente"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_apellidos_paciente"
+        app:layout_constraintTop_toBottomOf="@+id/txt_apellidos_paciente"
+        app:layout_constraintVertical_bias="0.431" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/txt_correo_paciente"
+        app:layout_constraintEnd_toEndOf="@+id/txt_telefono_paciente"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_telefono_paciente"
+        app:layout_constraintTop_toBottomOf="@+id/txt_telefono_paciente"
+        app:layout_constraintVertical_bias="0.139" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="296dp"
+        android:text="Contraseña"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/txt_contraseña_paciente"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_correo_paciente"
+        app:layout_constraintTop_toBottomOf="@+id/txt_correo_paciente"
+        app:layout_constraintVertical_bias="0.551" />
+
+    <EditText
+        android:id="@+id/txt_apellidos_paciente"
+        android:layout_width="319dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#020202"
+        android:ems="10"
+        android:hint="Ingrese su apellido"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#74000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txt_nombres_paciente"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_nombres_paciente"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nombres_paciente"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro Paciente"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <EditText
+        android:id="@+id/txt_telefono_paciente"
+        android:layout_width="320dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="404dp"
+        android:backgroundTint="#020202"
+        android:ems="10"
+        android:hint="Ingrese su teléfono"
+        android:inputType="phone"
+        android:textColor="#000000"
+        android:textColorHint="#74000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txt_apellidos_paciente"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_apellidos_paciente" />
+
+    <EditText
+        android:id="@+id/txt_correo_paciente"
+        android:layout_width="322dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#020202"
+        android:ems="10"
+        android:hint="Ingrese su correo"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textColorHint="#74000000"
+        app:layout_constraintEnd_toEndOf="@+id/txt_telefono_paciente"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_telefono_paciente"
+        app:layout_constraintTop_toBottomOf="@+id/txt_telefono_paciente" />
+
+    <EditText
+        android:id="@+id/txt_contraseña_paciente"
+        android:layout_width="321dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#020202"
+        android:ems="10"
+        android:hint="Ingrese su contraseña"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#74000000"
+        app:layout_constraintEnd_toEndOf="@+id/txt_correo_paciente"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_correo_paciente"
+        app:layout_constraintTop_toBottomOf="@+id/txt_correo_paciente" />
+</androidx.constraintlayout.widget.ConstraintLayout>

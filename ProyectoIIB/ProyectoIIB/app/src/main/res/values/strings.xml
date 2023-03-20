@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Proyecto-IIB</string>
+    <string name="texto_ir_a_registrar"><u>¿Aún no tienes una cuenta? Regístrate aquí</u></string>
+    <string name="olvidaste_contraseña"><u>¿Olvidaste la contraseña?</u></string>
+    <string name="registro_odontologo"><u>¿No eres paciente? Registrate aquí</u></string>
+    <string name="prefs_file">com.example.proyecto_iib.PREFERENCE_FILE_KEY</string>
+
+
+</resources>
